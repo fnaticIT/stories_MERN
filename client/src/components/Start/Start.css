@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+}
+.enter {
+  color: #d8d0d3 !important;
+  margin: 0 !important;
+  border: none !important;
+  cursor: pointer !important;
+  display: inline-block !important;
+  outline: none !important;
+  text-align: center !important;
+  background: transparent !important;
+  transition: all 0.2s ease-in-out !important;
+  line-height: 1 !important;
+  text-transform: uppercase !important;
+  background-color: #ff0066 !important;
+  padding: 24px 68px !important;
+  font-size: 20px !important;
+}
+.enter:hover {
+  transition: all 0.2s ease-in-out !important;
+  background-color: rgb(128, 230, 230) !important;
+  color: black !important;
+}
