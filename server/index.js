@@ -16,7 +16,7 @@ app.use("/user",userRoutes);
 app.get('/',(req,res)=>{
     res.send('hello');
 })
-//const CONNECTION_URL = "mongodb+srv://fnatic_06:naman666@cluster0.r6y69.mongodb.net/mernDB";
+
 const PORT = process.env.PORT || 5000;
 
 mongoose
